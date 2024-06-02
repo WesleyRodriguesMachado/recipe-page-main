@@ -1,0 +1,115 @@
+body {
+  background-color: var(--background);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300vh;
+}
+.main-content {
+  background-color: #fff;
+  max-width: 738px;
+  border-radius: 25px;
+  padding: 38px;
+  font-family: Outfit;
+  color: var(--main-text);
+}
+
+.main-content img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1.8rem;
+}
+
+.main-content h1 {
+  font-family: "Young Serif";
+  color: var(--destak-text);
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.main-content .main-p {
+  margin-bottom: 3.8rem;
+}
+
+.main-content .preparation-time {
+  padding: 0px 28px;
+  margin-bottom: 3.5rem;
+}
+
+.main-content .preparation-time h3 {
+  color: var(--primary-subtitles);
+  font-size: 1.2rem;
+}
+
+.main-content .preparation-time ul {
+  margin-left: 20px;
+}
+
+.main-content .preparation-time li span {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.main-content .preparation-time li::marker {
+  color: var(--primary-subtitles);
+  font-size: 0.7rem;
+  line-height: 50px;
+}
+.main-content h2 {
+  font-family: "Young Serif";
+  color: var(--primary-titles);
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 0.3rem;
+}
+
+.main-content .ingredients,
+.main-content .instructions {
+  margin-bottom: 3.8rem;
+}
+
+.main-content .ingredients ul,
+.main-content .instructions ol {
+  margin-left: 20px;
+}
+.main-content .ingredients ul li,
+.main-content .instructions ol li {
+  padding-left: 20px;
+}
+
+.main-content .instructions span {
+  font-weight: bold;
+}
+.main-content .ingredients li::marker {
+  font-size: 0.7rem;
+  line-height: 50px;
+  color: var(--primary-titles);
+}
+
+.main-content .instructions li::marker {
+  color: var(--primary-titles);
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.main-content .nutrition p {
+  margin-top: 20px;
+}
+
+.main-content .nutrition .table {
+  border-collapse: collapse;
+}
+
+.main-content .nutrition td {
+  padding: 25px 215px 10px 30px;
+  border-bottom: 1px solid hsl(0, 0%, 81%);
+}
+
+.main-content .nutrition td:nth-child(2) {
+  font-weight: bold;
+  color: var(--primary-titles);
+}
